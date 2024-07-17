@@ -136,7 +136,7 @@ module.exports = server = createServer(async (req, res) => {
   .on("listening", () => {
     if (process.env.NODE_ENV !== "test") {
       console.log(
-        `Сервер YOUR_MEAL запущен. Вы можете использовать его по адресу http://localhost:${PORT}`
+        `Сервер burger-delivery запущен. Вы можете использовать его по адресу http://localhost:${PORT}`
       );
       console.log("Нажмите CTRL+C, чтобы остановить сервер");
       console.log("Доступные методы:");
